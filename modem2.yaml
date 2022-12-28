@@ -1,0 +1,17 @@
+proxies:
+  - name: S3🚀
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 0ebe805c-9e38-4e95-a1c8-b5b24268ca1c
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: kahebeb
+    network: ws
+    ws-opts: 
+      path: /worryfree
+      headers: 
+        Host: v2ray3.udpgw.com
+    udp: true

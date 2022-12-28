@@ -1,0 +1,33 @@
+proxies:
+  - name: S1🚀
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: e8cc5b30-8661-11ed-b739-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: www.midtrans.com
+    network: ws
+    ws-opts: 
+      path: /fastssh
+      headers: 
+        Host: sg2.v2-ray.com
+    udp: true
+  - name: S2🚀
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 5f9e334b-d54d-42c9-8978-9e957f15378f
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: do2.kitu.xyz
+    network: ws
+    ws-opts: 
+      path: /vmess/
+      headers: 
+        Host: do2.kitu.xyz
+    udp: true
