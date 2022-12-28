@@ -15,3 +15,19 @@ proxies:
       headers: 
         Host: v2ray3.udpgw.com
     udp: true
+  - name: S4🚀
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: c4d18341-8da0-49d1-a67d-556f9811a966
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: do2.kitu.xyz
+    network: ws
+    ws-opts: 
+      path: /vmess/
+      headers: 
+        Host: do2.kitu.xyz
+    udp: true
