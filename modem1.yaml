@@ -32,17 +32,18 @@ proxies:
         Host: do2.kitu.xyz
     udp: true
   - name: S5🚀
-    type: ss
     server: 104.26.7.171
     port: 80
-    cipher: 2022-blake3-aes-128-gcm
-    password: KqXquXaK0GYCxQ2mX7jLig==:vxgkHN8hrU7iUbM+gl+NTg==
-    udp-over-tcp: true
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: do1.kitu.xyz
-      path: /ssws/
-      tls: false
-      skip-cert-verify: true
-      mux: false
+    type: vmess
+    uuid: 555a1d20-8778-11ed-b237-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: www.midtrans.com
+    network: ws
+    ws-opts: 
+      path: /fastssh
+      headers: 
+        Host: www.midtrans.com
+    udp: true
