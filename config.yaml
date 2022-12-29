@@ -223,8 +223,11 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: '99'
 - name: MODEM1-PING
-  type: select
+  type: url-test    
+  interval: '30'
+  tolerance: '99'
   disable-udp: false
+  url: http://www.gstatic.com/generate_204
   use:
   - MODEM1
   url: http://www.gstatic.com/generate_204
