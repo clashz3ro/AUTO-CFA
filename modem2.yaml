@@ -1,33 +1,17 @@
 proxies:
-  - name: S3🚀
+  - name: ilped2
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: 0ebe805c-9e38-4e95-a1c8-b5b24268ca1c
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: kahebeb
-    network: ws
-    ws-opts: 
-      path: /worryfree
-      headers: 
-        Host: v2ray3.udpgw.com
-    udp: true
-  - name: S4🚀
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: c4d18341-8da0-49d1-a67d-556f9811a966
+    uuid: 83a2cd20-878a-11ed-b636-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: do2.kitu.xyz
+    servername: 
     network: ws
     ws-opts: 
-      path: /vmess/
+      path: /fastssh
       headers: 
-        Host: do2.kitu.xyz
+        Host: id1-temp.v2-ray.com
     udp: true
